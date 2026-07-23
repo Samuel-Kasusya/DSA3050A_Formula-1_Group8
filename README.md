@@ -7,11 +7,11 @@ Group 8
 | Name | Student ID |
 |------|-----------|
 | Samuel Kasusya | 668694 |
-| Kendi Nyaga |  |
-| Lisa Mbaire |  |
-| Adrian Munyua |  |
-| Michael Sifuna |  |
-| Ogutu Rufinas |  |
+| Kendi Nyaga | 671807 |
+| Lisa Mbaire | 672034 |
+| Adrian Munyua | 672056 |
+| Michael Sifuna | 673982 |
+| Ogutu Rufinas | 670827 |
 
 ## Dataset Source URL
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
@@ -23,14 +23,13 @@ Formula 1 race data from the Ergast database (via Kaggle), covering every season
 Formula 1 teams work under a strict budget cap, so management has to back big decisions, which drivers to run, how to plan race strategy, and where to spend limited development money with evidence. Our group acts as a business intelligence team hired by the management of an F1 team, our client. They hold decades of race data but have no single view that turns it into decisions.
 Our goal is one clear dashboard that shows who performs well and how consistently, and how grid position, pit stops, circuits and seasons shape results so management can make better driver, strategy and investment calls.
 
-
 **Key business questions**
 1. Which drivers and teams are the most consistent across a season, and which are the most erratic?
 2. Does a better starting position reliably lead to a better finish, and does that change from circuit to circuit?
 3. How do pit stops (how many, how long) affect a driver's final result?
 4. Which circuits show the biggest gap between top and mid-field teams?
 5. How have the leading drivers' and teams' standings changed over the seasons?
-   
+
 ## Power Query Transformations
 
 
