@@ -32,6 +32,19 @@ Our goal is one clear dashboard that shows who performs well and how consistentl
 
 ## Power Query Transformations
 
+The Formula 1 dataset was cleaned and transformed in Power Query before modeling. The following transformations were applied:
+
+- Imported all selected CSV tables into Power BI.
+- Renamed columns using a consistent naming convention.
+- Corrected data types (Whole Number, Decimal Number, Text and Date).
+- Replaced all "\N" values with null values.
+- Removed unnecessary and redundant columns.
+- Applied Column Quality, Column Distribution and Column Profile to assess data quality.
+- Performed Merge Queries to enrich the main fact table with related descriptive information.
+- Created Reference Queries for analytical purposes.
+- Applied Group By transformations with multiple aggregations.
+- Created summarized tables to support reporting and analysis.
+- Created a Date Table to facilitate time-based analysis.
 
 ## Data Model Explanation
 
@@ -52,7 +65,7 @@ Our goal is one clear dashboard that shows who performs well and how consistentl
 | Member | Contributions |
 |--------|--------------|
 | Samuel Kasusya | |
-| Kendi Nyaga | |
+| Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
 | Lisa Mbaire | |
 | Adrian Munyua | |
 | Michael Sifuna | |
