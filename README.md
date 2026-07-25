@@ -68,5 +68,5 @@ The Formula 1 dataset was cleaned and transformed in Power Query before modeling
 | Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
 | Lisa Mbaire | |
 | Adrian Munyua | |
-| Michael Sifuna | |
+| Michael Sifuna | Renamed fact and dimension tables using standard naming conventions, organized the Power BI model for improved readability, created and validated relationships between tables, connected the Date dimension (`DimDate`) to `FactResults` for time-based analysis, verified relationship cardinality and filter directions, documented the final data model with supporting screenshots, and prepared the dataset for DAX. |
 | Ogutu Rufinas | |
