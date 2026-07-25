@@ -48,6 +48,17 @@ The Formula 1 dataset was cleaned and transformed in Power Query before modeling
 
 ## Data Model Explanation
 
+The Power BI data model was designed and refined to improve data organization and support efficient analysis of the Formula 1 dataset.
+
+- Renamed tables using standard **Fact** and **Dimension** naming conventions.
+- Organized the Power BI model to improve readability and maintainability.
+- Identified and separated fact tables from dimension tables.
+- Created and verified relationships between fact and dimension tables.
+- Added and connected the **DimDate** table to **FactResults** using the **Race Date** field.
+- Configured One-to-Many (1:*) relationships with single-direction filtering.
+- Reviewed and refined the model to align with dimensional modelling best practices.
+- Updated the Power BI project file (`PowerBI/GroupProject.pbix`) with the completed data model.
+- Added screenshots documenting the data modelling process in the `Screenshots` folder.
 
 ## DAX Measures Created
 
