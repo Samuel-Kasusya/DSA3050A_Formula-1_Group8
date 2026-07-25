@@ -52,8 +52,8 @@ The Power BI data model was designed and refined to improve data organization an
 
 - Renamed tables using standard **Fact** and **Dimension** naming conventions.
 - Organized the Power BI model to improve readability and maintainability.
-- Identified and separated fact tables from dimension tables.
-- Created and verified relationships between fact and dimension tables.
+- Identified and separated fact tables from the dimension tables.
+- Created and verified relationships between the fact and dimension tables.
 - Added and connected the **DimDate** table to **FactResults** using the **Race Date** field.
 - Configured One-to-Many (1:*) relationships with single-direction filtering.
 - Reviewed and refined the model to align with dimensional modelling best practices.
