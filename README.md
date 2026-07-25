@@ -17,7 +17,7 @@ Group 8
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
 
 ## Dataset Description
-Formula 1 race data from the Ergast database (via Kaggle), covering every season from 1950 to 2024. The full set is 14 related tables; this project uses 10 of them — races, drivers, constructors, circuits, lap times, pit stops, results, status, driver standings and constructor standings — linked by shared ID columns. The largest table (lap times) records one row per driver per lap, at 589,081 rows. Because the data captures every lap rather than only final results, it can show how consistent drivers and teams are, and how grid position, pit stops, circuit and season affect results. 
+Formula 1 race data from the Ergast database (via Kaggle), covering every season from 1950 to 2024. The dataset is made up of 14 related tables — races, drivers, constructors, circuits, seasons, status, lap times, pit stops, qualifying, results, sprint results, and driver and constructor standings — linked by shared ID columns. The largest table (lap times) records one row per driver per lap, at 589,081 rows. Because the data captures every lap rather than only final results, it can show how consistent drivers and teams are, and how grid position, pit stops, circuit and season affect results.
 
 ## Business Problem
 Formula 1 teams work under a strict budget cap, so management has to back big decisions, which drivers to run, how to plan race strategy, and where to spend limited development money with evidence. Our group acts as a business intelligence team hired by the management of an F1 team, our client. They hold decades of race data but have no single view that turns it into decisions.
