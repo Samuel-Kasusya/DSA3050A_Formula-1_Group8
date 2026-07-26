@@ -61,7 +61,16 @@ The Power BI data model was designed and refined to improve data organization an
 - Added screenshots documenting the data modelling process in the `Screenshots` folder.
 
 ## DAX Measures Created
-
+The following DAX measures were created to support analysis and improve decision-making in the dashboard:
+- Created basic aggregation measures such as Total Races, Total Wins, Total Drivers, and Total Points.
+- Developed ratio and percentage measures including Win Rate, Podium Rate, and Average Points per Race.
+- Implemented time intelligence measures such as Points YTD, Previous Year Points, and Points Growth %.
+- Created ranking measures including Driver Rank by Wins and Constructor Rank by Points.
+- Built KPI and conditional measures such as Driver Performance Status and Win Category.
+- Developed dynamic measures like Selected Driver Title and Selected Season Title for interactive reporting.
+- Used DAX functions including CALCULATE, DIVIDE, RANKX, TOTALYTD, and SELECTEDVALUE.
+- Organised all measures into a dedicated _Measures table for better structure and maintainability.
+- Applied appropriate formatting (percentages, whole numbers) to ensure clarity and professionalism.
 
 ## Dashboard Pages Explained
 
@@ -77,7 +86,7 @@ The Power BI data model was designed and refined to improve data organization an
 |--------|--------------|
 | Samuel Kasusya | |
 | Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
-| Lisa Mbaire | |
+| Lisa Mbaire | Designed and structured the Power BI data model using fact and dimension tables, created and validated table relationships, developed DAX measures for KPIs and analysis, implemented time intelligence calculations, built interactive dashboard visuals, and documented the data model and measures in the README. | 
 | Adrian Munyua | |
 | Michael Sifuna | Renamed fact and dimension tables using standard naming conventions, organized the Power BI model for improved readability, created and validated relationships between tables, connected the Date dimension (`DimDate`) to `FactResults` for time-based analysis, verified relationship cardinality and filter directions, documented the final data model with supporting screenshots, and prepared the dataset for DAX. |
 | Ogutu Rufinas | |
