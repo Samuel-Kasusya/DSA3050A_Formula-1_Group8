@@ -62,15 +62,15 @@ The Power BI data model was designed and refined to improve data organization an
 
 ## DAX Measures Created
 The following DAX measures were created to support analysis and improve decision-making in the dashboard:
--Created basic aggregation measures such as Total Races, Total Wins, Total Drivers, and Total Points.
--Developed ratio and percentage measures including Win Rate, Podium Rate, and Average Points per Race.
--Implemented time intelligence measures such as Points YTD, Previous Year Points, and Points Growth %.
--Created ranking measures including Driver Rank by Wins and Constructor Rank by Points.
--Built KPI and conditional measures such as Driver Performance Status and Win Category.
--Developed dynamic measures like Selected Driver Title and Selected Season Title for interactive reporting.
--Used DAX functions including CALCULATE, DIVIDE, RANKX, TOTALYTD, and SELECTEDVALUE.
--Organised all measures into a dedicated _Measures table for better structure and maintainability.
--Applied appropriate formatting (percentages, whole numbers) to ensure clarity and professionalism.
+- Created basic aggregation measures such as Total Races, Total Wins, Total Drivers, and Total Points.
+- Developed ratio and percentage measures including Win Rate, Podium Rate, and Average Points per Race.
+- Implemented time intelligence measures such as Points YTD, Previous Year Points, and Points Growth %.
+- Created ranking measures including Driver Rank by Wins and Constructor Rank by Points.
+- Built KPI and conditional measures such as Driver Performance Status and Win Category.
+- Developed dynamic measures like Selected Driver Title and Selected Season Title for interactive reporting.
+- Used DAX functions including CALCULATE, DIVIDE, RANKX, TOTALYTD, and SELECTEDVALUE.
+- Organised all measures into a dedicated _Measures table for better structure and maintainability.
+- Applied appropriate formatting (percentages, whole numbers) to ensure clarity and professionalism.
 
 ## Dashboard Pages Explained
 
