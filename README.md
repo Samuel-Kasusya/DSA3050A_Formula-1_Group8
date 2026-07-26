@@ -86,7 +86,7 @@ The following DAX measures were created to support analysis and improve decision
 |--------|--------------|
 | Samuel Kasusya | |
 | Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
-| Lisa Mbaire | |
+| Lisa Mbaire | Designed and structured the Power BI data model using fact and dimension tables, created and validated table relationships, developed DAX measures for KPIs and analysis, implemented time intelligence calculations, built interactive dashboard visuals, and documented the data model and measures in the README. | 
 | Adrian Munyua | |
 | Michael Sifuna | Renamed fact and dimension tables using standard naming conventions, organized the Power BI model for improved readability, created and validated relationships between tables, connected the Date dimension (`DimDate`) to `FactResults` for time-based analysis, verified relationship cardinality and filter directions, documented the final data model with supporting screenshots, and prepared the dataset for DAX. |
 | Ogutu Rufinas | |
