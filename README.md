@@ -24,11 +24,11 @@ Formula 1 teams work under a strict budget cap, so management has to back big de
 Our goal is one clear dashboard that shows who performs well and how consistently, and how grid position, pit stops, circuits and seasons shape results so management can make better driver, strategy and investment calls.
 
 **Key business questions**
-1. Which drivers and teams are the most consistent across a season, and which are the most erratic?
-2. Does a better starting position reliably lead to a better finish, and does that change from circuit to circuit?
-3. How do pit stops (how many, how long) affect a driver's final result?
-4. Which circuits show the biggest gap between top and mid-field teams?
-5. How have the leading drivers' and teams' standings changed over the seasons?
+1. Which drivers and constructors have the most race wins, and how has that trend changed by season?
+2. Which circuits show the biggest gap in points scored between top and mid-field constructors?
+3. Which drivers have made the most pit stops across their careers?
+4. Where geographically has the sport generated the most points, by country?
+5. How have the leading drivers' and constructors' standings changed across seasons?
 
 ## Power Query Transformations
 
@@ -73,7 +73,15 @@ The following DAX measures were created to support analysis and improve decision
 - Applied appropriate formatting (percentages, whole numbers) to ensure clarity and professionalism.
 
 ## Dashboard Pages Explained
+The dashboard is made up of four pages, with a page navigator and a synced Year slicer available across all of them.
 
+**Executive Summary** — a high-level view for management. Five KPI cards show Total Races, Total Drivers, Total Constructors, Total Wins and Total Points. A bar chart ranks the top 10 constructors by all-time wins, a line chart shows the win trend by year, and a treemap shows how wins are distributed across drivers.
+
+**Trend Analysis** — season-by-season performance. A line chart tracks points over time for the top 5 constructors, and a second line chart tracks wins over time for the top 5 drivers, showing how leading teams and drivers have risen and fallen across seasons.
+
+**Geographic Analysis** — where racing happens and how competitive it is. A map plots circuits by location with bubble size showing points scored, a bar chart ranks countries by total points, and a matrix with conditional formatting compares points scored by top constructors at each circuit.
+
+**Detailed Drill-through** — driver-level detail. Reached by right-clicking a driver on another page, this page filters to that driver and shows a performance table (wins, points, races, nationality, performance status) alongside a chart of total pit stops by driver.
 
 ## Key Insights
 
@@ -84,7 +92,7 @@ The following DAX measures were created to support analysis and improve decision
 ## Contribution Summary for Each Member
 | Member | Contributions |
 |--------|--------------|
-| Samuel Kasusya | |
+| Samuel Kasusya | Set up the GitHub repository and folder structure, wrote Part 1 (business problem, dataset description, key business questions), and uploaded the raw dataset. Delegated and reviewed work across the group, coordinating handovers between stages. Built the initial Power BI dashboard (Part 5) — all four pages with required visuals, drill-through, synced slicers and navigation — then handed it over for theming, tooltip page and final polish. |
 | Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
 | Lisa Mbaire | Designed and structured the Power BI data model using fact and dimension tables, created and validated table relationships, developed DAX measures for KPIs and analysis, implemented time intelligence calculations, built interactive dashboard visuals, and documented the data model and measures in the README. | 
 | Adrian Munyua | |
