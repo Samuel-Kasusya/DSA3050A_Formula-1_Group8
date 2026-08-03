@@ -11,7 +11,7 @@ Group 8
 | Lisa Mbaire | 672034 |
 | Adrian Munyua | 672056 |
 | Michael Sifuna | 673982 |
-| Ogutu Rufinas | 670827 |
+| Ogutu Rufinus | 670827 |
 
 ## Dataset Source URL
 https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
