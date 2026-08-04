@@ -24,11 +24,19 @@ Formula 1 teams work under a strict budget cap, so management has to back big de
 Our goal is one clear dashboard that shows who performs well and how consistently, and how grid position, pit stops, circuits and seasons shape results so management can make better driver, strategy and investment calls.
 
 **Key business questions**
-1. Which drivers and constructors have the most race wins, and how has that trend changed by season?
-2. Which circuits show the biggest gap in points scored between top and mid-field constructors?
-3. Which drivers have made the most pit stops across their careers?
-4. Where geographically has the sport generated the most points, by country?
-5. How have the leading drivers' and constructors' standings changed across seasons?
+1. Driver Victory Distribution & Era Dominance: Which drivers hold the highest cumulative race victories, and how do their win trajectories reflect regulatory and technical era shifts?
+
+2. Constructor Era Dynamics & Dominance Shifts: Which constructors maintain the highest win totals, and what structural shifts characterize constructor hierarchy changes over time?
+
+3. Circuit Performance Disparity Analysis: Which circuits demonstrate the largest points gap between elite and midfield constructors, and what circuit characteristics drive these variances?
+
+4. Career Pit Stop Volume & Strategy Operational Trends: Which drivers have logged the highest cumulative pit stops, and how do operational regulation changes (e.g., refueling bans, tire supplier rules) explain these volumes?
+
+5. Geographic Distribution of F1 Points: Which nations account for the largest proportion of total career points, and what geographic clusters emerge from global distribution mapping?
+
+6. Drivers' Championship Dynamics Across Seasons: How have driver standings evolved across historical seasons, and what patterns characterize championship battles over time?
+
+7. Constructors' Championship Longevity & Success Cycles: How have constructor standings shifted through historical regulatory eras, and what factors separate temporary peaks from multi-season dominance?
 
 ## Power Query Transformations
 
