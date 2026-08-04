@@ -35,8 +35,6 @@ Our goal is a clear dashboard that shows who performs well and how consistently,
 
 5. **Geographic Distribution of Points:** Which countries account for the largest share of total points scored?
 
-6. **Championship Dynamics Across Seasons:** How have the leading drivers' and constructors' standings evolved over time?
-
 ## Power Query Transformations
 
 The Formula 1 dataset was cleaned and transformed in Power Query before modeling. The following transformations were applied:
