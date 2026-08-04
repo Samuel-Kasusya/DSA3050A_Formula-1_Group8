@@ -98,7 +98,16 @@ The dashboard is made up of four pages, with a page navigator and a synced Year 
 | Member | Contributions |
 |--------|--------------|
 | Samuel Kasusya | Set up the GitHub repository and folder structure, wrote Part 1 (business problem, dataset description, key business questions), and uploaded the raw dataset. Delegated and reviewed work across the group, coordinating handovers between stages. Built the initial Power BI dashboard (Part 5) — all four pages with required visuals, drill-through, synced slicers and navigation — then handed it over for theming, tooltip page and final polish. |
-| Kendi Nyaga | Imported and cleaned the Formula 1 datasets in Power BI, standardized column names, corrected data types, replaced `\N` values with nulls, removed unnecessary columns, performed column profiling, applied Merge Queries, created Reference Queries, performed Group By transformations with multiple aggregations, created summarized tables and a Date Table, and prepared the dataset for data modeling. |
+| Kendi Nyaga |
+|-------------|
+| - Imported and cleaned the Formula 1 datasets in Power BI.
+  - Standardized column names, corrected data types, and replaced `\N` values with null values.
+  - Removed unnecessary columns and performed column profiling.
+  - Applied Merge Queries and created Reference Queries.
+  - Performed **Group By** transformations with multiple aggregations.
+  - Created summarized tables and a Date Table to support data modeling.
+  - Prepared the dataset for analysis and visualization.
+  - Developed the final project presentation by designing the slide structure, summarizing dashboard insights, incorporating dashboard screenshots, and formatting the presentation for PDF submission. |
 | Lisa Mbaire | Designed and structured the Power BI data model using fact and dimension tables, created and validated table relationships, developed DAX measures for KPIs and analysis, implemented time intelligence calculations, built interactive dashboard visuals, and documented the data model and measures in the README. | 
 | Adrian Munyua | For objective 5, the dashboard was built as four connected pages that move from an Executive Summary with KPI cards, a clustered bar chart, a line chart, and a table, to a Trend Analysis page covering lap times, driver rankings, and a decomposition tree, to a Geographic Analysis page that has a filled and tree map that maps races, with a table showing a rank of the drivers with their win rate, to a Tooltip page that shows quick preview analysis from the clustered bar chart that is on the executive page. The tables in the dashboard were aggregated for performance and other variables listed in the dataset. 
 | Michael Sifuna | Renamed fact and dimension tables using standard naming conventions, organized the Power BI model for improved readability, created and validated relationships between tables, connected the Date dimension (`DimDate`) to `FactResults` for time-based analysis, verified relationship cardinality and filter directions, documented the final data model with supporting screenshots, and prepared the dataset for DAX. |
