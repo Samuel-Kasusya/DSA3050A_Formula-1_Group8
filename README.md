@@ -21,22 +21,21 @@ Formula 1 race data from the Ergast database (via Kaggle), covering every season
 
 ## Business Problem
 Formula 1 teams work under a strict budget cap, so management has to back big decisions, which drivers to run, how to plan race strategy, and where to spend limited development money with evidence. Our group acts as a business intelligence team hired by the management of an F1 team, our client. They hold decades of race data but have no single view that turns it into decisions.
-Our goal is one clear dashboard that shows who performs well and how consistently, and how grid position, pit stops, circuits and seasons shape results so management can make better driver, strategy and investment calls.
+Our goal is a clear dashboard that shows who performs well and how consistently, and how grid position, pit stops, circuits and seasons shape results so management can make better driver, strategy and investment calls.
 
 **Key business questions**
-1. Driver Victory Distribution & Era Dominance: Which drivers hold the highest cumulative race victories, and how do their win trajectories reflect regulatory and technical era shifts?
 
-2. Constructor Era Dynamics & Dominance Shifts: Which constructors maintain the highest win totals, and what structural shifts characterize constructor hierarchy changes over time?
+1. **Driver Victory Distribution:** Which drivers hold the highest cumulative race victories, and how have their win totals changed season by season?
 
-3. Circuit Performance Disparity Analysis: Which circuits demonstrate the largest points gap between elite and midfield constructors, and what circuit characteristics drive these variances?
+2. **Constructor Dominance:** Which constructors hold the highest all-time win totals, and how have their points trends shifted across seasons?
 
-4. Career Pit Stop Volume & Strategy Operational Trends: Which drivers have logged the highest cumulative pit stops, and how do operational regulation changes (e.g., refueling bans, tire supplier rules) explain these volumes?
+3. **Circuit Performance Disparity:** Which circuits show the largest points gap between elite and midfield constructors?
 
-5. Geographic Distribution of F1 Points: Which nations account for the largest proportion of total career points, and what geographic clusters emerge from global distribution mapping?
+4. **Career Pit Stop Volume:** Which drivers have logged the highest cumulative pit stops across their careers?
 
-6. Drivers' Championship Dynamics Across Seasons: How have driver standings evolved across historical seasons, and what patterns characterize championship battles over time?
+5. **Geographic Distribution of Points:** Which countries account for the largest share of total points scored?
 
-7. Constructors' Championship Longevity & Success Cycles: How have constructor standings shifted through historical regulatory eras, and what factors separate temporary peaks from multi-season dominance?
+6. **Championship Dynamics Across Seasons:** How have the leading drivers' and constructors' standings evolved over time?
 
 ## Power Query Transformations
 
