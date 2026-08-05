@@ -88,19 +88,27 @@ The dashboard is made up of four pages, with a page navigator and a synced Year 
 
 **Detailed Drill-through** — driver-level detail. Reached by right-clicking a driver on another page, this page filters to that driver and shows a performance table (wins, points, races, nationality, performance status) alongside a chart of total pit stops by driver.
 
-## Key Insights
-Concentration of Driver Victories Among Elite Drivers
-Constructor Win Concentration Varies Across Eras
-Points Vary Substantially by Circuit and Constructor
-Career Pit Stop Volumes Are Higher for Modern-Era Drivers
-Championship Points Are Geographically Concentrated
+## Key Insights:
+Concentration of Driver Victories Among Elite Drivers.
+
+Constructor Win Concentration Varies Across Eras.
+
+Points Vary Substantially by Circuit and Constructor.
+
+Career Pit Stop Volumes Are Higher for Modern-Era Drivers.
+
+Championship Points Are Geographically Concentrated.
 
 ## Recommendations
-Target circuits where the points pivot table shows the largest gap versus top constructors
-Prioritise sub-two-second pit stop execution
-Align R&D cycles with regulatory reset years
-Expand regional driver academy investment
-Standardise the data pipeline ahead of any live-telemetry expansion
+Target circuits where the points pivot table shows the largest gap versus top constructors.
+
+Prioritise sub-two-second pit stop execution.
+
+Align R&D cycles with regulatory reset years.
+
+Expand regional driver academy investment.
+
+Standardise the data pipeline ahead of any live-telemetry expansion.
 
 ## Contribution Summary for Each Member
 | Member | Contributions |
