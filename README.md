@@ -89,10 +89,18 @@ The dashboard is made up of four pages, with a page navigator and a synced Year 
 **Detailed Drill-through** — driver-level detail. Reached by right-clicking a driver on another page, this page filters to that driver and shows a performance table (wins, points, races, nationality, performance status) alongside a chart of total pit stops by driver.
 
 ## Key Insights
-
+Concentration of Driver Victories Among Elite Drivers
+Constructor Win Concentration Varies Across Eras
+Points Vary Substantially by Circuit and Constructor
+Career Pit Stop Volumes Are Higher for Modern-Era Drivers
+Championship Points Are Geographically Concentrated
 
 ## Recommendations
-
+Target circuits where the points pivot table shows the largest gap versus top constructors
+Prioritise sub-two-second pit stop execution
+Align R&D cycles with regulatory reset years
+Expand regional driver academy investment
+Standardise the data pipeline ahead of any live-telemetry expansion
 
 ## Contribution Summary for Each Member
 | Member | Contributions |
@@ -102,4 +110,4 @@ The dashboard is made up of four pages, with a page navigator and a synced Year 
 | Lisa Mbaire | Designed and structured the Power BI data model using fact and dimension tables, created and validated table relationships, developed DAX measures for KPIs and analysis, implemented time intelligence calculations, built interactive dashboard visuals, and documented the data model and measures in the README. |
 | Adrian Munyua | Developed the dashboard pages for Objective 5, including the Executive Summary, Trend Analysis, Geographic Analysis, and Tooltip page. Created and configured visualizations such as KPI cards, clustered bar charts, line charts, decomposition trees, filled and tree maps, and ranking tables, while aggregating data to improve dashboard performance and analysis. |
 | Michael Sifuna | Renamed fact and dimension tables using standard naming conventions, organized the Power BI model for readability, created and validated relationships between tables, connected the `DimDate` table to `FactResults` for time-based analysis, verified relationship cardinality and filter directions, documented the final data model with supporting screenshots, and prepared the dataset for DAX calculations. |
-| Ogutu Rufinus | Provided answers for Key business questions, Outlined strategic priorities including R&D alignment with regulatory resets, pit execution optimization, and regional talent scouting, Added complete project assets including the Screenshots for each dashboard page, Data Dictionary, Business Insights Summary, and Pitch/Script Walkthrough.|
+| Ogutu Rufinus | Provided answers for Key business questions, Outlined strategic priorities including R&D alignment with regulatory resets, pit execution optimization, and regional talent scouting, Added complete project assets including the Data Dictionary, Business Insights,Project Summary,Recommendations and Pitch/Script Walkthrough.|
